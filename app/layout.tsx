@@ -1,18 +1,29 @@
-import './globals.css'
+import '@styles/globals.css';
+import styles from '@styles/Layout.module.css';
+
+import Menu from '@sections/Menu';
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>
+        <aside className={styles.sidemenu}>
+          <Menu />
+        </aside>
+        <main>{children}</main>
+      </body>
     </html>
-  )
+  );
 }

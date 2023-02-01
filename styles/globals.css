@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  color: #8a8b9f;
+  background-color: #f3f5fa;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

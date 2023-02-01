@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  margin-bottom: 7.3rem;
+}
+
+.logo img {
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.logo p {
+  font-size: 1.8rem;
+  color: #4e36fc;
+}

@@ -1,0 +1,18 @@
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+}
+
+.navlink a {
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.navlink a:hover {
+  color: #4e36fc;
+}
+
+.navlink__active {
+  color: #4e36fc;
+}

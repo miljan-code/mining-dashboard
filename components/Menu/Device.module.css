@@ -1,0 +1,47 @@
+.device {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  padding-right: 4rem;
+  width: 100%;
+}
+
+.icon {
+  width: 6.4rem;
+  height: 6.4rem;
+
+  background-color: #f3f5fa;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.details p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: #5d4e7b;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status p {
+  font-weight: 400;
+}
+
+.more {
+  margin-left: auto;
+  cursor: pointer;
+}

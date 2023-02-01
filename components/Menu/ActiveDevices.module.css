@@ -1,0 +1,17 @@
+.activeDevices {
+  margin-top: auto;
+  margin-bottom: 6rem;
+}
+
+.activeDevices h3 {
+  color: #0d1118;
+  line-height: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 2.6rem;
+}
+
+.activeDevices__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}

@@ -1,0 +1,6 @@
+.menu {
+  padding: 4.4rem 0 3.1rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
