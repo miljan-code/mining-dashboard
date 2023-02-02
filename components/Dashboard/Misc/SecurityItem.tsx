@@ -1,4 +1,5 @@
 import styles from './SecurityItem.module.css';
+import Switch from './Switch';
 
 interface SecurityItemProps {
   name: string;
@@ -12,6 +13,7 @@ const SecurityItem: React.FC<SecurityItemProps> = ({ name, isEnabled }) => {
         <p>{name}</p>
         <p>{isEnabled ? 'Disable' : 'Enable'}</p>
       </div>
+      <Switch />
     </div>
   );
 };

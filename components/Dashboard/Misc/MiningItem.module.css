@@ -1,0 +1,65 @@
+.miningItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.9rem;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bgLeft,
+.bgRight {
+  width: 6.4rem;
+  height: 6.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgLeftCpu {
+  background-color: #fe8f66;
+  box-shadow: 5px 10px 30px rgba(254, 143, 102, 0.4);
+}
+.bgLeftGpu {
+  background-color: #ffcc40;
+  box-shadow: 5px 10px 30px rgba(255, 204, 64, 0.4);
+}
+
+.bgRightCal {
+  background-color: #783efd;
+  box-shadow: 5px 10px 30px rgba(111, 50, 255, 0.4);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.details p:first-child {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #1c1c1f;
+}
+
+.isRunning,
+.earnings {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.running {
+  color: #3ecd7b;
+}

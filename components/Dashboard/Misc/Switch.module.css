@@ -1,0 +1,36 @@
+.switchBg {
+  width: 2.4rem;
+  height: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 3rem;
+  background-color: #d1d8ef;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.switchBgActive {
+  background-color: #3ecd7b;
+  justify-content: right;
+}
+
+.switchBtn {
+  width: 1.6rem;
+  height: 1.6rem;
+
+  background-color: #fff;
+  box-shadow: -3px 1px 4px rgba(0, 0, 0, 0.1);
+
+  border-radius: 50%;
+  margin-left: -6px;
+
+  transition: all 0.3s ease;
+}
+
+.switchBtnActive {
+  margin-right: -6px;
+  box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.1);
+}

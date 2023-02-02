@@ -6,10 +6,12 @@ const MiningStatus = () => {
     <div>
       <h3 className={styles.miningHead}>Mining Status</h3>
       <div className={styles.mining}>
-        <MiningItem />
-        <MiningItem />
-        <MiningItem />
-        <MiningItem />
+        <MiningItem icon="/cpu-btc.svg" hardware="gpu" isActive={true} />
+        <MiningItem
+          icon="/cpu-electricity.svg"
+          hardware="cpu"
+          isActive={true}
+        />
       </div>
     </div>
   );
