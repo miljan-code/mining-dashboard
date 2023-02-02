@@ -1,0 +1,7 @@
+.headline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.7rem;
+
+  margin-bottom: 4.5rem;
+}

@@ -1,7 +1,7 @@
 import '@styles/globals.css';
 import styles from '@styles/Layout.module.css';
 
-import Menu from '@sections/Menu';
+import Menu from 'layout/Menu';
 
 export default function RootLayout({
   children,

@@ -1,0 +1,24 @@
+.securityItem {
+  width: 27.3rem;
+  height: 6.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 1.5rem 1.5rem 2.2rem;
+  background-color: #fff;
+}
+
+.details p:first-child {
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: #5d4e7b;
+
+  margin-bottom: 6px;
+}
+
+.details p:last-child {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}

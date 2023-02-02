@@ -1,0 +1,15 @@
+.securityHead {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #0d1118;
+
+  margin-bottom: 1.9rem;
+}
+
+.security {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3.1rem;
+  column-gap: 2rem;
+}

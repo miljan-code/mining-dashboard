@@ -1,0 +1,46 @@
+.priceContent {
+  width: 20.2rem;
+  height: 9.7rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 3rem;
+}
+
+.priceBg1 {
+  background-color: #e3e0ff;
+}
+.priceBg2 {
+  background-color: #d7f8e8;
+}
+.priceBg3 {
+  background-color: #dae3f7;
+}
+.priceBg4 {
+  background-color: #f0edea;
+}
+
+.pair {
+  margin-bottom: 9px;
+}
+
+.price {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #151630;
+}
+
+.priceLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 3.3rem;
+}
+
+.priceMov {
+  margin-top: 1px;
+}

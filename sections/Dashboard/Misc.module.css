@@ -1,0 +1,6 @@
+.misc {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 3rem;
+}

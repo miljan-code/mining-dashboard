@@ -1,0 +1,15 @@
+.dashboardNav h2 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  color: #151630;
+
+  margin-bottom: 2.5rem;
+}
+
+.dashboardNavItems {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

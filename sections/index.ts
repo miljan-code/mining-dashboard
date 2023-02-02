@@ -1,3 +1,5 @@
-import Dashboard from './Dashboard';
+import Headline from './Dashboard/Headline';
+import Overview from './Dashboard/Overview';
+import Misc from './Dashboard/Misc';
 
-export { Dashboard };
+export { Headline, Overview, Misc };

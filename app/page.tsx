@@ -1,9 +1,11 @@
-import { Dashboard } from '@sections/index';
+import { Headline, Misc, Overview } from 'sections';
 
 export default function Home() {
   return (
-    <>
-      <Dashboard />
-    </>
+    <section>
+      <Headline />
+      <Overview />
+      <Misc />
+    </section>
   );
 }

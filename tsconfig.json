@@ -23,7 +23,7 @@
     "paths": {
       "@styles/*": ["styles/*"],
       "@components/*": ["components/*"],
-      "@sections/*": ["sections/*"],
+      "@sections/*": ["layout/*"],
       "@constants/*": ["constants/*"]
     }
   },
