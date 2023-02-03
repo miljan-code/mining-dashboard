@@ -38,3 +38,14 @@
   width: 19px;
   height: 19px;
 }
+
+@media screen and (min-width: 1441px) {
+  .formGroup input {
+    min-width: 80%;
+  }
+
+  .formGroup button {
+    min-width: 4.8rem;
+    min-height: 4.8rem;
+  }
+}

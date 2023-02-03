@@ -22,7 +22,7 @@ export default function RootLayout({
         <aside className={styles.sidemenu}>
           <Menu />
         </aside>
-        <main>{children}</main>
+        <main className={styles.main}>{children}</main>
       </body>
     </html>
   );
