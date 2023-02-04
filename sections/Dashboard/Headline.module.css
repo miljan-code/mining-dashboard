@@ -5,3 +5,9 @@
 
   margin-bottom: 4.5rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .headline {
+    gap: 6rem;
+  }
+}

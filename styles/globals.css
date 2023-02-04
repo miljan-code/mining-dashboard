@@ -38,8 +38,8 @@ section {
   padding: 5.2rem 0 4.4rem 7.2rem;
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (max-width: 1440px) {
   section {
-    padding: 5.2rem 7.2rem 4.4rem 7.2rem;
+    padding: 3rem 4rem;
   }
 }

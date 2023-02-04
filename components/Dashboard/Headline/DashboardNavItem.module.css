@@ -26,9 +26,9 @@
   background-color: #fff;
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (max-width: 1440px) {
   .dashNavItem div {
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
