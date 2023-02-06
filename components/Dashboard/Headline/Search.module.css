@@ -46,8 +46,6 @@
 
   .formGroup input {
     padding: 1.25rem 2rem;
-    max-width: 15rem;
-    width: 100%;
   }
 
   .formGroup button {
