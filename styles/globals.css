@@ -16,7 +16,7 @@ body {
   line-height: 2.2rem;
 
   color: #8a8b9f;
-  background-color: #f3f5fa;
+  background-color: #4f46ba;
   scroll-behavior: smooth;
   /* overflow-x: hidden; */
 
@@ -35,11 +35,5 @@ input {
 }
 
 section {
-  padding: 5.2rem 0 4.4rem 7.2rem;
-}
-
-@media screen and (max-width: 1440px) {
-  section {
-    padding: 3rem 4rem;
-  }
+  padding: 5.2rem 7.8rem 4.4rem 7.2rem;
 }

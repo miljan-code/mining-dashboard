@@ -45,18 +45,3 @@
   margin-left: auto;
   cursor: pointer;
 }
-
-@media screen and (max-width: 1440px) {
-  .icon {
-    width: 4.8rem;
-    height: 4.8rem;
-  }
-
-  /* .device {
-    padding-right: 1rem;
-  }
-
-  .more {
-    margin-left: 0;
-  } */
-}

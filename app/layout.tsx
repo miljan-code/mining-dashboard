@@ -19,10 +19,12 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <aside className={styles.sidemenu}>
-          <Menu />
-        </aside>
-        <main className={styles.main}>{children}</main>
+        <div className={styles.layout}>
+          <aside className={styles.sidemenu}>
+            <Menu />
+          </aside>
+          <main className={styles.main}>{children}</main>
+        </div>
       </body>
     </html>
   );

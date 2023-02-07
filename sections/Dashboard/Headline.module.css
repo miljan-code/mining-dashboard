@@ -1,13 +1,6 @@
 .headline {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.7rem;
+  grid-template-columns: auto auto;
 
   margin-bottom: 4.5rem;
-}
-
-@media screen and (max-width: 1440px) {
-  .headline {
-    gap: 6rem;
-  }
 }

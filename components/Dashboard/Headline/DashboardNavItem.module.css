@@ -1,5 +1,5 @@
 .dashNavItem {
-  padding: 7px;
+  padding: 5px;
   border: 2px solid #fff;
   border-radius: 1.3rem;
   transition: border 0.3s ease;
@@ -24,11 +24,4 @@
   justify-content: center;
 
   background-color: #fff;
-}
-
-@media screen and (max-width: 1440px) {
-  .dashNavItem div {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
 }
