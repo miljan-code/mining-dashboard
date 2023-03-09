@@ -1,15 +1,31 @@
-This app is created based on [ARShakir's](https://www.arshakir.com/project/mining-dashboard-ui-concept) design.
+# Mining Dashboard
 
-## Getting Started
+This app doesn't have any functionality and it's created using NextJS just for reusability of components purpose and easy, zero configuration routing. The goal of this project was to recreate pixel perfect website based on provided design.
 
-First, run the development server:
+![Mining Dashboard](/mining-dashboard.png)
+
+## Usage
+
+Clone this repo
+
+```bash
+git clone https://github.com/miljan-code/mining-dashboard.git
+```
+
+Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
+
+Try it out here
+
+[https://mining-dashboard-tau.vercel.app/](https://mining-dashboard-tau.vercel.app/)
+
+## Design
+
+This application is designed by [ARShakir](https://www.arshakir.com/)
